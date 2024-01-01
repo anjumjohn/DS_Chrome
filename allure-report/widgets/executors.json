@@ -1,1 +1,1 @@
-[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":27,"buildName":"DSAlgo Project #27","buildUrl":"http://localhost:8080/job/DSAlgo%20Project/27/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/DSAlgo%20Project/27/allure"}]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":2,"buildName":"DS_Chrome #2","buildUrl":"http://localhost:8080/job/DS_Chrome/2/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/DS_Chrome/2/allure"}]
