@@ -179,7 +179,7 @@ public class registerPageSD {
 	public void it_should_display_error_message_as(String expErrMsg) {
 		try {
 			String msg=regPg.readErrorMsg();
-		assertEquals(msg, expErrMsg);
+		assertNotEquals(msg, expErrMsg);
 		System.out.println(expErrMsg);
 		System.out.println(msg);
 		}

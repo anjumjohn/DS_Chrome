@@ -41,10 +41,10 @@ public class ElementsUtils {
 
 	public void enterCodePractice(String code, WebElement element) {
 		new Actions(driver)
-		.keyDown(Keys.CONTROL)
+		.keyDown(Keys.COMMAND)
 		.sendKeys("a")
 		.sendKeys(Keys.DELETE)
-		.keyUp(Keys.CONTROL)
+		.keyUp(Keys.COMMAND)
 		.perform();
 		String[] str1 = code.split("\n");
 		for (int i = 0; i < str1.length; i++) {
@@ -52,7 +52,7 @@ public class ElementsUtils {
 				element.sendKeys(Keys.BACK_SPACE);
 			} else {
 				element.sendKeys(str1[i]);
-				element.sendKeys(Keys.RETURN);
+				element.sendKeys(Keys.ENTER);
 			}
 		}
 	}

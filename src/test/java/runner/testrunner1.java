@@ -13,6 +13,7 @@ plugin={"pretty",
 		"html:target/cucumber-reports/dsalgo.html","json:target/MyReports/report.json",
 		"html:target/MyReports/report2.json","junit:target/MyReports/report1.json",
 		"timeline:test-output-thread/"}
+//tags = "@home"
 		)
 
 public class testrunner1 {

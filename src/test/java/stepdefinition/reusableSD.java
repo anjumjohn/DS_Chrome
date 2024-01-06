@@ -17,7 +17,7 @@ import io.cucumber.java.en.When;
 import utilities.LoggerLoad;
 import utilities.configReader;
 
-public class reusableSD {
+public class reusableSD { 
 	
 	loginDSAlgo login= new loginDSAlgo();
 	homePage home=new homePage();
